@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        var kalkulasi: Double
+        val kalkulasi: Double
         val inputsatu = inputone.text.toString().trim()
         val inputdua = inputtwo.text.toString().trim()
         if(inputsatu.isEmpty() || inputdua.isEmpty()){
